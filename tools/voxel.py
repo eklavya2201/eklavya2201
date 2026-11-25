@@ -34,6 +34,11 @@ FONT = {
     "/": ["....#", "....#", "...#.", "..#..", ".#...", "#....", "#...."],
     ".": [".", ".", ".", ".", ".", ".", "#"],
     "-": ["...", "...", "...", "###", "...", "...", "..."],
+    "0": [".###.", "#...#", "#..##", "#.#.#", "##..#", "#...#", ".###."],
+    "1": [".#.", "##.", ".#.", ".#.", ".#.", ".#.", "###"],
+    "2": [".###.", "#...#", "....#", "...#.", "..#..", ".#...", "#####"],
+    "+": [".....", "..#..", "..#..", "#####", "..#..", "..#..", "....."],
+    ",": ["..", "..", "..", "..", "..", ".#", "#."],
     " ": ["..", "..", "..", "..", "..", "..", ".."],
 }
 
@@ -66,8 +71,8 @@ def pixel_text(s, x, y, px, front, side, depth, cls="", stagger=0.0, bold=False)
                         face.append(f'<rect x="{X}" y="{Y}" width="{px}" height="{px}"/>')
             style = f' style="animation-delay:{0.3 + i * stagger:.2f}s"' if stagger else ""
             out.append(
-                f'<g class="{cls}"{style}><g fill="{side}">{"".join(back)}</g>'
-                f'<g fill="{front}" stroke="{side}" stroke-width="1" stroke-opacity=".25">{"".join(face)}</g></g>'
+                f'<g class="{cls}"{style}><g fill="{side}">{"".join(back)}</g>' +
+                (f'<g fill="{front}" stroke="{side}" stroke-width="1" stroke-opacity=".25">' if px >= 6 else f'<g fill="{front}">') + f'{"".join(face)}</g></g>'
             )
         x += (w + 1) * px
     return "".join(out)
@@ -152,7 +157,7 @@ def hills(W, base, colours):
         h = base - 40 + layer * 30
         while x < W:
             h = max(base - 90 + layer * 30, min(base - 10 + layer * 25, h + rnd.choice((-12, 0, 0, 12))))
-            out.append(f'<rect x="{x}" y="{h}" width="{step + 1}" height="{500 - h}" fill="{col}"/>')
+            out.append(f'<rect x="{x}" y="{h}" width="{step + 1}" height="{2000 - h}" fill="{col}"/>')
             out.append(f'<rect x="{x}" y="{h}" width="{step + 1}" height="4" fill="{shade(col,1.15)}"/>')
             x += step
     return "".join(out)
