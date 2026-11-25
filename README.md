@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/man-dark.svg"/>
-  <img src="assets/man-light.svg" alt="$ man eklavya. NAME: eklavya pandey - builds tools that take something real and make it run" width="100%"/>
-</picture>
+<img src="assets/header.svg" alt="eklavya pandey - I build tools that make things run" width="100%"/>
 
 I like building the thing between "that looks
 interesting" and "it's running on my machine". Most of what's below started as
