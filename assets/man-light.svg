@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="487" viewBox="0 0 1200 487" role="img" aria-label="man eklavya: eklavya pandey builds tools that take something real and make it run">
+<style>text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;font-size:17px}svg{fill:#1f2328}.c{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
+<rect width="1200" height="487" fill="#ffffff"/>
+<text x="8" y="34" xml:space="preserve"><tspan fill="#656d76">$ </tspan><tspan font-weight="700">man eklavya</tspan></text>
+<text x="8" y="78" font-weight="700">EKLAVYA(1)</text><text x="600.0" y="78" text-anchor="middle" fill="#656d76">User Commands</text><text x="1192" y="78" text-anchor="end" font-weight="700">EKLAVYA(1)</text>
+<text x="8" y="124" xml:space="preserve"><tspan font-weight="700">NAME</tspan></text>
+<text x="69.19999999999999" y="151" xml:space="preserve"><tspan font-weight="700">eklavya pandey</tspan><tspan> - builds tools that take something real and make it run</tspan></text>
+<text x="8" y="193" xml:space="preserve"><tspan font-weight="700">SYNOPSIS</tspan></text>
+<text x="69.19999999999999" y="220" xml:space="preserve"><tspan font-weight="700">eklavya</tspan><tspan> [</tspan><tspan font-weight="700">--build</tspan><tspan>] [</tspan><tspan font-weight="700">--ship</tspan><tspan>] </tspan><tspan text-decoration="underline">idea</tspan></text>
+<text x="8" y="262" xml:space="preserve"><tspan font-weight="700">DESCRIPTION</tspan></text>
+<text x="69.19999999999999" y="289" xml:space="preserve"><tspan>AI &amp; Data Science student in Mumbai. Writes dev tools, LLM agents,</tspan></text>
+<text x="69.19999999999999" y="316" xml:space="preserve"><tspan>and the evals that keep them honest. Best known for </tspan><tspan font-weight="700">breakinggood</tspan><tspan>(1).</tspan></text>
+<text x="8" y="358" xml:space="preserve"><tspan font-weight="700">SEE ALSO</tspan></text>
+<text x="69.19999999999999" y="385" xml:space="preserve"><tspan font-weight="700">breakinggood</tspan><tspan>(1), </tspan><tspan font-weight="700">tokenmeter</tspan><tspan>(1), </tspan><tspan font-weight="700">agenttrace</tspan><tspan>(1), </tspan><tspan font-weight="700">interviewops</tspan><tspan>(1)</tspan></text>
+<text x="8" y="431" fill="#656d76">Mumbai</text><text x="600.0" y="431" text-anchor="middle" fill="#656d76">November 2026</text><text x="1192" y="431" text-anchor="end" fill="#656d76">EKLAVYA(1)</text>
+<text x="8" y="471" xml:space="preserve"><tspan fill="#656d76">$ </tspan><tspan class="c" fill="#1a7f37">▍</tspan></text>
+</svg>

@@ -1,13 +1,9 @@
-<img src="assets/header.svg" alt="eklavya pandey: I build tools that take something real and make it run." width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/man-dark.svg"/>
+  <img src="assets/man-light.svg" alt="$ man eklavya. NAME: eklavya pandey - builds tools that take something real and make it run" width="100%"/>
+</picture>
 
-<p>
-  <a href="https://github.com/eklavya2201"><img src="https://img.shields.io/github/followers/eklavya2201?label=followers&style=flat-square&color=0b0f14&labelColor=1f2a33" alt="followers"/></a>
-  <a href="https://x.com/eklavya221"><img src="https://img.shields.io/badge/@eklavya221-0b0f14?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
-  <a href="https://dev.to/eklavya_pandey_163f26590b"><img src="https://img.shields.io/badge/dev.to-0b0f14?style=flat-square&logo=devdotto&logoColor=white" alt="dev.to"/></a>
-  <img src="https://img.shields.io/badge/based_in-Mumbai-0b0f14?style=flat-square&labelColor=1f2a33" alt="Mumbai"/>
-</p>
-
-AI & Data Science student in Mumbai. I like building the thing between "that looks
+I like building the thing between "that looks
 interesting" and "it's running on my machine". Most of what's below started as
 something I was annoyed by.
 
@@ -109,15 +105,8 @@ Outside GitHub I've worked on production AI at early-stage startups: voice
 agents that run real sales and loan-document calls, and a fine-tuned code model
 (Qwen2.5-Coder-14B + LoRA) that writes CAD for hardware.
 
-## What I reach for
+---
 
-<img src="https://skillicons.dev/icons?i=python,ts,react,nodejs,fastapi,pytorch,tailwind,vite,postgres,sqlite,docker,gcp,linux,git&perline=14" alt="Python, TypeScript, React, Node, FastAPI, PyTorch, Tailwind, Vite, Postgres, SQLite, Docker, GCP, Linux, Git"/>
-
-## Lately
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/eklavya2201/eklavya2201/output/snake-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/eklavya2201/eklavya2201/output/snake.svg" alt="contribution graph being eaten by a snake" width="100%"/>
-</picture>
+<sub>[x.com/eklavya221](https://x.com/eklavya221) · [dev.to](https://dev.to/eklavya_pandey_163f26590b) · Mumbai</sub>
 
 <sub>If you're stuck getting some repo to run, try `npx breakinggood <url>` and open an issue when it doesn't work. That's how it gets better.</sub>

@@ -7,7 +7,7 @@
     </clipPath>
     <style>
       text{font-family:ui-monospace,SFMono-Regular,"JetBrains Mono",Consolas,"Liberation Mono",monospace;font-size:16px}
-      .dim{fill:#6b7a86}.txt{fill:#d6dde3}.ok{fill:#4ade80}.hi{fill:#e6edf3;font-weight:700}.url{fill:#7dd3fc}
+      .dim{fill:#6b7a86}.txt{fill:#d6dde3}.ok{fill:#3fb950}.hi{fill:#e6edf3;font-weight:700}.url{fill:#7dd3fc}
       .l{opacity:0;animation:in .25s ease-out forwards}
       @keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
       .a1{animation-delay:2.3s}.a2{animation-delay:3.0s}.a3{animation-delay:3.7s}.a4{animation-delay:4.4s}
@@ -17,10 +17,9 @@
     </style>
   </defs>
 
-  <rect x=".5" y=".5" width="899" height="399" rx="14" fill="#0b0f14" stroke="#1f2a33"/>
-  <path d="M.5 40.5h899" stroke="#1f2a33"/>
-  <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
-  <text x="450" y="25" text-anchor="middle" class="dim" style="font-size:13px">~/projects</text>
+  <rect x=".5" y=".5" width="899" height="399" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <path d="M.5 40.5h899" stroke="#30363d"/>
+    <text x="450" y="25" text-anchor="middle" class="dim" style="font-size:13px">~/projects</text>
 
   <g transform="translate(28 82)">
     <text class="dim">$</text>
